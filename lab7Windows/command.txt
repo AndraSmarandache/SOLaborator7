@@ -1,0 +1,5 @@
+cd "C:\Users\japan\OneDrive\Documents\ANUL 3 SEMESTRUL 1\Sisteme Operare\Lab7\lab7Windows"
+g++ -o initializer initializer.cpp shared_resources.cpp
+g++ -o Process1 Process1.cpp shared_resources.cpp
+g++ -o Process2 Process2.cpp shared_resources.cpp
+.\initializer

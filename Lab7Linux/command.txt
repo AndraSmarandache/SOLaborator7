@@ -1,0 +1,4 @@
+g++ -o initializer initializer.cpp shared_resources.cpp -pthread
+g++ -o process1 process1.cpp shared_resources.cpp -pthread
+g++ -o process2 process2.cpp shared_resources.cpp -pthread
+./initializer
